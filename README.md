@@ -53,16 +53,18 @@ The report generation process is handled in `report.py`. It performs the followi
 To run the API server:
 
 1. Ensure dependencies are installed (see `requirements.txt`).
-2. Start the FastAPI server by running:
+2. Add env variables for database connection.
+3. Start the FastAPI server by running:
 
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
-3. Use the API endpoints to trigger and retrieve reports.
+4. Use the API endpoints to trigger and retrieve reports.
+
+**Kindly refer to the sample output file provided in the repository for reference.**
 
 ---
-
 ## Ideas to Improve the Solution
 
 To further enhance the scalability, reliability, and performance of this system, consider the following improvements:
