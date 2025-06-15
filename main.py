@@ -10,10 +10,8 @@ app.include_router(router)
 @app.on_event("startup")
 async def startup_event():
     try:
-        
-        
         print("Loading sample data...")
-        #load_csv_data()
+        load_csv_data()
         print("Sample data loaded successfully!")
 
     except Exception as e:
